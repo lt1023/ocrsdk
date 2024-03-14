@@ -1,0 +1,7 @@
+Executable : E:\develop\android\androidSDK\cmake\3.10.2.4988404\bin\ninja.exe
+arguments : 
+-C
+H:\workspace\AutoMerge\paddleocr4android\PaddleOCR4Android\.cxx\RelWithDebInfo\3o565425\armeabi-v7a
+more_game
+jvmArgs : 
+

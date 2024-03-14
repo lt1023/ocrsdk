@@ -1,0 +1,42 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "H:\\workspace\\AutoMerge\\paddleocr4android\\PaddleOCR4Android\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "E:\\develop\\android\\androidSDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+      "-C",
+      "H:\\workspace\\AutoMerge\\paddleocr4android\\PaddleOCR4Android\\.cxx\\Debug\\1pp1a61a\\arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "E:\\develop\\android\\androidSDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-C",
+    "H:\\workspace\\AutoMerge\\paddleocr4android\\PaddleOCR4Android\\.cxx\\Debug\\1pp1a61a\\arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "more_game-Debug-arm64-v8a": {
+      "buildCommandComponents": [
+        "E:\\develop\\android\\androidSDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "H:\\workspace\\AutoMerge\\paddleocr4android\\PaddleOCR4Android\\.cxx\\Debug\\1pp1a61a\\arm64-v8a",
+        "more_game"
+      ],
+      "buildType": "debug",
+      "abi": "arm64-v8a",
+      "artifactName": "more_game",
+      "output": "H:\\workspace\\AutoMerge\\paddleocr4android\\PaddleOCR4Android\\build\\intermediates\\cxx\\Debug\\1pp1a61a\\obj\\arm64-v8a\\libmore_game.so",
+      "runtimeFiles": [
+        "H:\\workspace\\AutoMerge\\paddleocr4android\\PaddleOCR4Android\\PaddleLite\\cxx\\libs\\arm64-v8a\\libpaddle_light_api_shared.so"
+      ]
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

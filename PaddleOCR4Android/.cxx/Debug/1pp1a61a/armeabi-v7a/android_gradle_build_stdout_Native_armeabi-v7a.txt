@@ -1,0 +1,2 @@
+ninja: Entering directory `H:\workspace\AutoMerge\paddleocr4android\PaddleOCR4Android\.cxx\Debug\1pp1a61a\armeabi-v7a'
+ninja: no work to do.

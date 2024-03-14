@@ -1,0 +1,2 @@
+ninja: Entering directory `H:\workspace\AutoMerge\paddleocr4android\PaddleOCR4Android\.cxx\RelWithDebInfo\3o565425\arm64-v8a'
+ninja: no work to do.

@@ -1,0 +1,3 @@
+H:/workspace/translation/paddleocr4android/PaddleOCR4Android/.cxx/Debug/um3d6y20/arm64-v8a/CMakeFiles/more_game.dir
+H:/workspace/translation/paddleocr4android/PaddleOCR4Android/.cxx/Debug/um3d6y20/arm64-v8a/CMakeFiles/edit_cache.dir
+H:/workspace/translation/paddleocr4android/PaddleOCR4Android/.cxx/Debug/um3d6y20/arm64-v8a/CMakeFiles/rebuild_cache.dir
