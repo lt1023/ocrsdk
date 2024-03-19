@@ -10,9 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3131687c-5ac7-4687-afd3-3af35dc7fb01" name="Changes" comment="update">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PaddleOCR4Android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/PaddleOCR4Android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +42,24 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="PaddleOCR4Android" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PaddleOCR4Android" type="f1a62948:ProjectNode" />
+                <item name="PaddleOCR4Android" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PaddleOCR4Android" type="f1a62948:ProjectNode" />
+                <item name="PaddleOCR4Android" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="PaddleOCR4Android" type="f1a62948:ProjectNode" />
+                <item name="PaddleOCR4Android" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -110,7 +130,7 @@
       <recent name="com.anygames.trans.sdk.callback" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.paddleocr4android [generateSourcesJar]">
+  <component name="RunManager" selected="Gradle.paddleocr4android:PaddleOCR4Android [assemble]">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="PaddleOCR4Android.app.main" />
       <option name="DEPLOY" value="true" />
@@ -341,8 +361,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.paddleocr4android [generateSourcesJar]" />
         <item itemvalue="Gradle.paddleocr4android:PaddleOCR4Android [assemble]" />
+        <item itemvalue="Gradle.paddleocr4android [generateSourcesJar]" />
         <item itemvalue="Gradle.paddleocr4android:PaddleOCR4Android [publish]" />
         <item itemvalue="Gradle.paddleocr4android:app [clean]" />
         <item itemvalue="Gradle.paddleocr4android:app [installRelease]" />
@@ -366,7 +386,7 @@
       <workItem from="1709866659140" duration="19771000" />
       <workItem from="1710120473313" duration="43062000" />
       <workItem from="1710382462856" duration="1182000" />
-      <workItem from="1710818203664" duration="1553000" />
+      <workItem from="1710818203664" duration="2233000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -400,7 +420,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710818299662</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update">
+      <option name="closed" value="true" />
+      <created>1710825914207</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710825914207</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
