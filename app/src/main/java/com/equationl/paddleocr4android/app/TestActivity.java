@@ -8,14 +8,11 @@ import android.os.Handler;
 import android.view.View;
 import android.widget.ImageView;
 import androidx.annotation.Nullable;
-import com.anygames.translate.OnTranslateCallBack;
-import com.anygames.translate.ScreenCapture;
-import com.anygames.translate.TranslateManager;
-import com.anygames.translate.view.LoadingUtils;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+
 
 public class TestActivity extends Activity {
 	private String TAG = "el, Main";
@@ -24,31 +21,31 @@ public class TestActivity extends Activity {
 	@Override
 	protected void onCreate(@Nullable Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
-		result_img = findViewById(R.id.result_img);
-		Bitmap bitmap3 = BitmapFactory.decodeResource(getResources(), R.drawable.game);
-		result_img.setImageBitmap(bitmap3);
-		result_img.setOnClickListener(view -> start(TestActivity.this));
+//		setContentView(R.layout.activity_main);
+//		result_img = findViewById(R.id.result_img);
+//		Bitmap bitmap3 = BitmapFactory.decodeResource(getResources(), R.drawable.game);
+//		result_img.setImageBitmap(bitmap3);
+//		result_img.setOnClickListener(view -> start(TestActivity.this));
 	}
 
 	private void start(Activity context) {
 
-		TranslateManager.startTranslate(context, new OnTranslateCallBack() {
-			@Override
-			public void onSuccess(Bitmap bitmap) {
-
-			}
-
-			@Override
-			public void onFailed() {
-
-			}
-		});
+//		TranslateManager.startTranslate(context, new OnTranslateCallBack() {
+//			@Override
+//			public void onSuccess(Bitmap bitmap) {
+//
+//			}
+//
+//			@Override
+//			public void onFailed() {
+//
+//			}
+//		});
 	}
 
 	@Override
 	protected void onDestroy() {
 		super.onDestroy();
-		TranslateManager.onDestroy();
+//		TranslateManager.onDestroy();
 	}
 }

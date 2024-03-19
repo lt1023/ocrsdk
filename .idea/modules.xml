@@ -4,13 +4,13 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/PaddleOCR4Android.iml" filepath="$PROJECT_DIR$/.idea/modules/PaddleOCR4Android.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PaddleOCR4Android.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PaddleOCR4Android.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PaddleOCR4Android.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PaddleOCR4Android.app.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/PaddleOCR4Android/paddleocr4android.PaddleOCR4Android.PaddleOCR4Android.iml" filepath="$PROJECT_DIR$/.idea/modules/PaddleOCR4Android/paddleocr4android.PaddleOCR4Android.PaddleOCR4Android.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/PaddleOCR4Android/paddleocr4android.PaddleOCR4Android.PaddleOCR4Android.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/PaddleOCR4Android/paddleocr4android.PaddleOCR4Android.PaddleOCR4Android.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/PaddleOCR4Android/paddleocr4android.PaddleOCR4Android.PaddleOCR4Android.main.iml" filepath="$PROJECT_DIR$/.idea/modules/PaddleOCR4Android/paddleocr4android.PaddleOCR4Android.PaddleOCR4Android.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/PaddleOCR4Android/paddleocr4android.PaddleOCR4Android.PaddleOCR4Android.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/PaddleOCR4Android/paddleocr4android.PaddleOCR4Android.PaddleOCR4Android.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/paddleocr4android.PaddleOCR4Android.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/paddleocr4android.PaddleOCR4Android.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/paddleocr4android.PaddleOCR4Android.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/paddleocr4android.PaddleOCR4Android.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/paddleocr4android.PaddleOCR4Android.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/paddleocr4android.PaddleOCR4Android.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/paddleocr4android.PaddleOCR4Android.app.unitTest~1.iml" filepath="$PROJECT_DIR$/.idea/modules/app/paddleocr4android.PaddleOCR4Android.app.unitTest~1.iml" />
     </modules>
   </component>
 </project>
