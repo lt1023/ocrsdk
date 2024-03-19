@@ -9,7 +9,6 @@ import android.graphics.Path;
 import android.graphics.Point;
 import android.util.Log;
 
-import androidx.annotation.Nullable;
 
 import com.anygames.trans.sdk.OCRPredictorNative;
 import com.anygames.trans.sdk.exception.InitModelException;
@@ -49,7 +48,7 @@ public class Predictor {
 	public Predictor() {
 	}
 
-	public boolean init(Context appCtx, String modelPath, @Nullable String labelPath, boolean useOpencl, int cpuThreadNum, String cpuPowerMode) throws InitModelException {
+	public boolean init(Context appCtx, String modelPath,  String labelPath, boolean useOpencl, int cpuThreadNum, String cpuPowerMode) throws InitModelException {
 		isLoaded = loadModel(appCtx, modelPath, useOpencl ? 1 : 0, cpuThreadNum, cpuPowerMode);
 		if (!isLoaded) {
 			return false;
@@ -58,7 +57,7 @@ public class Predictor {
 		return isLoaded;
 	}
 
-	public boolean init(Context appCtx, String modelPath, @Nullable String labelPath, boolean useOpencl, int cpuThreadNum, String cpuPowerMode, int detLongSize, float scoreThreshold,
+	public boolean init(Context appCtx, String modelPath,  String labelPath, boolean useOpencl, int cpuThreadNum, String cpuPowerMode, int detLongSize, float scoreThreshold,
 			String[] modelFileNames, Boolean isDrwwTextPositionBox) throws InitModelException {
 		this.detLongSize = detLongSize;
 		this.scoreThreshold = scoreThreshold;
@@ -122,7 +121,7 @@ public class Predictor {
 		modelName = "";
 	}
 
-	protected boolean loadLabel(Context appCtx, @Nullable String labelPath) throws InitModelException {
+	protected boolean loadLabel(Context appCtx,  String labelPath) throws InitModelException {
 		wordLabels.clear();
 		wordLabels.add("black");
 		// Load word labels from file

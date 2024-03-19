@@ -9,8 +9,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/PaddleOCR4Android/paddleocr4android.PaddleOCR4Android.PaddleOCR4Android.main.iml" filepath="$PROJECT_DIR$/.idea/modules/PaddleOCR4Android/paddleocr4android.PaddleOCR4Android.PaddleOCR4Android.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/PaddleOCR4Android/paddleocr4android.PaddleOCR4Android.PaddleOCR4Android.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/PaddleOCR4Android/paddleocr4android.PaddleOCR4Android.PaddleOCR4Android.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/paddleocr4android.PaddleOCR4Android.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/paddleocr4android.PaddleOCR4Android.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/paddleocr4android.PaddleOCR4Android.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/paddleocr4android.PaddleOCR4Android.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/paddleocr4android.PaddleOCR4Android.app.unitTest~1.iml" filepath="$PROJECT_DIR$/.idea/modules/app/paddleocr4android.PaddleOCR4Android.app.unitTest~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/paddleocr4android.PaddleOCR4Android.app.main~1.iml" filepath="$PROJECT_DIR$/.idea/modules/app/paddleocr4android.PaddleOCR4Android.app.main~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/paddleocr4android.PaddleOCR4Android.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/paddleocr4android.PaddleOCR4Android.app.unitTest.iml" />
     </modules>
   </component>
 </project>

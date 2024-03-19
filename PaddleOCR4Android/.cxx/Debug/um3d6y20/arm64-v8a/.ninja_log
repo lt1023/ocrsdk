@@ -1,2 +1,13 @@
 # ninja log v5
 0	8	0	clean	dbbbd7ec8bf27f1c
+206	1028	732529026	CMakeFiles/more_game.dir/predictor_input.cpp.o	be74ccf87715a33d
+232	1065	732529027	CMakeFiles/more_game.dir/predictor_output.cpp.o	ead9d467b6939c4d
+181	1283	732529027	CMakeFiles/more_game.dir/ppredictor.cpp.o	442ddf1168bca776
+104	1880	732529027	CMakeFiles/more_game.dir/ocr_db_post_process.cpp.o	b874e291d763e4ba
+53	2000	732529027	CMakeFiles/more_game.dir/ocr_clipper.cpp.o	167eefe13107927b
+130	2348	732529028	CMakeFiles/more_game.dir/preprocess.cpp.o	7e44e74952d9ef37
+155	2432	732529028	CMakeFiles/more_game.dir/ocr_cls_process.cpp.o	6ac07087693058b
+78	2458	732529028	CMakeFiles/more_game.dir/ocr_crnn_process.cpp.o	4b05e3fd2ef496ef
+27	2505	732529028	CMakeFiles/more_game.dir/native.cpp.o	9958a42f5a13dead
+1	2604	732529028	CMakeFiles/more_game.dir/ocr_ppredictor.cpp.o	e27bae383e760e45
+2604	5290	732529029	H:/workspace/translation/paddleocr4android/PaddleOCR4Android/build/intermediates/cxx/Debug/um3d6y20/obj/arm64-v8a/libmore_game.so	b324a86e3dc434e9

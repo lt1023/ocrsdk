@@ -2,7 +2,6 @@ plugins {
     id 'com.android.library'
     id 'kotlin-android'
     id 'maven-publish'
-//    id 'com.github.dcendents.android-maven'
 }
 
 android {
@@ -53,6 +52,45 @@ android {
             version "3.10.2"
         }
     }
+
+//    // 2、默认渠道
+//    defaultPublishConfig "productionRelease"
+//    // 3、发布渠道配置
+//    publishing {
+//        // Publishes all build variants with "vendor" component
+//        multipleVariants("vendor") {
+//            // 只发布release包
+//            includeBuildTypeValues("release")
+//            includeFlavorDimensionAndValues("vendor", "production", "sandbox")
+//        }
+//    }
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            allVariants(MavenPublication) {
+                // 发布后的依赖包按如下配置进行引用：com.github.AndroidAppCodeDemo:jitpack_MultiFlavorLibDemo:1.0.2
+                from components.release  // 表示发布 release
+                groupId = 'com.github.ocrsdk' // 这个是依赖库的组 id
+                artifactId = 'ocrsdk' // 依赖库的名称
+                version = "1.0.3"     // 当前版本依赖库版本号
+            }
+        }
+//        repositories {
+//            maven {
+//                def baseUrl = buildDir.getParent()
+//                def releasesRepoUrl = "$baseUrl/repos/releases"
+//                def snapshotsRepoUrl = "$baseUrl/repos/snapshots"
+//                url = version.endsWith('SNAPSHOT') ? snapshotsRepoUrl : releasesRepoUrl
+//            }
+//        }
+    }
+}
+
+task generateSourcesJar(type: Jar) {
+    from android.sourceSets.main.java.srcDirs
+    classifier 'sources'
 }
 
 //repositories {
@@ -99,10 +137,10 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
 
-    implementation 'androidx.core:core-ktx:1.7.0'
+//    implementation 'androidx.core:core-ktx:1.7.0'
 //    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0'
 //    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0'
-    testImplementation 'junit:junit:4.+'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+//    testImplementation 'junit:junit:4.+'
+//    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+//    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 }
